@@ -18,7 +18,7 @@ export async function generateMetadata({
     slug: string;
   };
 }): Promise<Metadata> {
-  const res: Blogs = await getBlog(params.slug);
+  const res: any = await getBlog(params.slug);
   const metadataTitle = res.portfolioBlogs[0].title;
 
   return {
@@ -28,7 +28,7 @@ export async function generateMetadata({
 
 const page = async ({ params }: { params: { slug: string } }) => {
   const { slug } = params;
-  const blog: Blogs = await getBlog(slug);
+  const blog: any = null;
   const content = blog.portfolioBlogs[0]?.content;
   const mdx: MDXRemoteSerializeResult = await serialize(content, {
     mdxOptions: {
@@ -65,10 +65,10 @@ const page = async ({ params }: { params: { slug: string } }) => {
 
 export default page;
 
-export async function generateStaticParams() {
-  const portfolioBlogs = await getBlogs();
+// export async function generateStaticParams() {
+//   const portfolioBlogs = await getBlogs();
 
-  return portfolioBlogs.map((blog: BlogType) => ({
-    slug: blog.slug,
-  }));
-}
+//   return portfolioBlogs.map((blog: BlogType) => ({
+//     slug: blog.slug,
+//   }));
+// }

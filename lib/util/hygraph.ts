@@ -7,5 +7,5 @@ export const getBlogs = async () => {
 };
 
 export const getBlog = async (slug: string) => {
-
+  return slug;
 };
