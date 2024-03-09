@@ -12,9 +12,6 @@ const Hero = (props: Props) => {
           <span style={{ fontWeight: 700 }}>Welcome</span>, to the
           Onlook demo website. Put a brief background about yourself here.
         </p>
-        <p className="leading-normal tracking-wide">
-          Talk some more briefly about yourself here.
-        </p>
         <div className="w-full">
           <Image
             src="/assets/hero-main.jpg"
