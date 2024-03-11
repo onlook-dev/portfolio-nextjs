@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body class='bg-white'>
+      <body class='text-black bg-white'>
         <Header />
         {children}
         <AnalyticsWrapper />
