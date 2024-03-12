@@ -42,14 +42,14 @@ const Header = () => {
               src="/assets/pfp.png"
               fill
               alt="profile-picture"
-              className="rounded-full select-none"
+              className="rounded-full select-none text-red-800"
               draggable="false"
             />
           </div>
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={poppins}>Onlook</span>
+            <span className={`${poppins} text-red-500`}>Onlook</span>
           </h1>
 
           {/* NAV LINKS */}

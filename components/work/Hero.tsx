@@ -7,7 +7,7 @@ const Hero = (props: Props) => {
   return (
     <div className="text-secondary-white mb-14 relative">
       <div className={`${manrope} space-y-12 text-hero-primary-para`}>
-        <p className="leading-normal tracking-wide">
+        <p className="leading-normal tracking-wide text-black">
           Add an your collection of
           projects here and keep shipping. 
         </p>
