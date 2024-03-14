@@ -63,14 +63,14 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-white">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
                       className={clsx(
                         "absolute left-0 top-full block",
                         "bg-primary-gray-highlighted",
-                        "h-[2px] w-full"
+                        "h-[2px] w-full text-white"
                       )}
                     />
                   )}
