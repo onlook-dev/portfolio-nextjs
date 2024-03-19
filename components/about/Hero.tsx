@@ -17,7 +17,7 @@ const Hero = (props: Props) => {
             src="/assets/hero-main.jpg"
             className={clsx(
               "select-none",
-              "rounded-xl",
+              "rounded-full",
               "aspect-auto",
               "grayscale-0"
             )}
