@@ -42,8 +42,9 @@ const Footer = (props: Props) => {
           "sm:flex-row",
           "text-[#646464] tracking-wide",
           "mb-24",
-          "relative"
-        )}
+          "relative",
+        "text-red-500"
+      )}
       >
         <div className={`${manrope} space-y-4`}>
           <p className="footer-item">
