@@ -49,11 +49,11 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold text-white text-[50px] font-normal`}>Onlook</span>
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex gap-5 text-primary-gray text-nav-primary-list text-[#c9acac]">
             {navLinks.map((link) => (
               <p
                 className={`${
@@ -63,7 +63,7 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-[#d5d1f5] text-[#d5d1f5]">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
