@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold text-red-600`}>Hello world</span>
+            <span className={`${poppins} text-8xl font-bold`} style={{ color: '#ff0000' }}>Hello world</span>
           </h1>
 
           {/* NAV LINKS */}
