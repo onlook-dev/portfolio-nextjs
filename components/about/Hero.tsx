@@ -8,7 +8,8 @@ const Hero = (props: Props) => {
   return (
     <div className="text-secondary-white mb-20">
       <div className={clsx(manrope, "space-y-12", "text-hero-primary-para")}>
-        <p className="leading-normal tracking-wide">
+        <p className="leading-normal tracking-wide text-black">
+        
           <span style={{ fontWeight: 700 }}>Welcome</span>, to the
           Onlook demo website. Put a brief background about yourself here.
         </p>
@@ -19,13 +20,14 @@ const Hero = (props: Props) => {
               "select-none",
               "rounded-full",
               "aspect-auto",
-              "grayscale-0"
+              "grayscale-0",
+            "h-[690px]"
             )}
             width={1000}
             height={1000}
             alt="main-image"
             draggable="false"
-            quality={100}
+          quality={100}
           />
         </div>
       </div>
