@@ -19,13 +19,14 @@ const Hero = (props: Props) => {
               "select-none",
               "rounded-full",
               "aspect-auto",
-              "grayscale-0"
+              "grayscale-0",
+            "rounded-[32px]"
             )}
             width={1000}
             height={1000}
             alt="main-image"
             draggable="false"
-            quality={100}
+          quality={100}
           />
         </div>
       </div>
