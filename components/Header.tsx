@@ -20,7 +20,7 @@ const Header = () => {
         className={clsx(
           "flex flex-col",
           "justify-between items-center text-center",
-          "md:flex-row md:text-left"
+          "md:flex-row md:text-left text-right"
         )}
       >
         {/* LEFT CONTAINER */}
@@ -49,11 +49,11 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold text-red-600`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold text-red-600`}>Onlook.dev</span>
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex gap-5 text-primary-gray text-nav-primary-list text-[#fcfcfc]">
             {navLinks.map((link) => (
               <p
                 className={`${

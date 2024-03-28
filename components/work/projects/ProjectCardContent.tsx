@@ -20,7 +20,7 @@ const ProjectCardContent = ({
     <div className="mx-6 flex flex-col gap-4 sm:max-w-md max-w-2xl mb-6 md:mb-0">
       {/* NAME & URLs */}
       <div className="flex justify-between items-center">
-        <p className={`${poppins} text-primary-white text-xl font-medium`}>
+        <p className={`${poppins} text-primary-white text-xl font-medium text-black`}>
           {name}
         </p>
         <div className="flex gap-3 text-primary-white text-lg">
