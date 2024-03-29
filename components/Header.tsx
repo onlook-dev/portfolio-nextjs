@@ -20,7 +20,7 @@ const Header = () => {
         className={clsx(
           "flex flex-col",
           "justify-between items-center text-center",
-          "md:flex-row md:text-left text-right"
+          "md:flex-row md:text-left"
         )}
       >
         {/* LEFT CONTAINER */}
@@ -53,7 +53,7 @@ const Header = () => {
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list text-[#fcfcfc]">
+          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
             {navLinks.map((link) => (
               <p
                 className={`${
