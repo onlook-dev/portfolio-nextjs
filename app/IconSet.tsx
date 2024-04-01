@@ -41,7 +41,7 @@ const IconSet = () => {
             className={clsx(
               "transition duration-300",
               "hover:bg-zinc-700 hover:shadow-blue-500/50",
-              "text-xl text-[#e0e0e0] bg-zinc-800",
+              "text-xl text-[#e0e0e0] bg-[#2b2b31]",
               "shadow-lg cursor-pointer p-1 rounded-md",
               icon.className
             )}
