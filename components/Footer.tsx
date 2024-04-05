@@ -40,7 +40,7 @@ const Footer = (props: Props) => {
           "flex flex-col gap-4",
           "justify-between",
           "sm:flex-row",
-          "text-[#646464] tracking-wide",
+          "text-[#696969] tracking-wide",
           "mb-24",
           "relative"
         )}
