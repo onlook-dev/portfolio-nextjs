@@ -63,7 +63,7 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-[#576aff]">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
