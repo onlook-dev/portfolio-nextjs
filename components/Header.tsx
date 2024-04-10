@@ -15,12 +15,12 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="px-8 max-w-3xl mx-auto mt-32">
+    <nav className="px-8 max-w-3xl mx-auto mt-32 w-1/2 max-w-inherit">
       <div
         className={clsx(
           "flex flex-col",
           "justify-between items-center text-center",
-          "md:flex-row md:text-left"
+          "md:flex-row md:text-left w-full"
         )}
       >
         {/* LEFT CONTAINER */}
