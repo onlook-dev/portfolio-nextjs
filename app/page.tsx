@@ -7,7 +7,7 @@ import { manrope } from "lib/util/get-class";
 export default function Home() {
   return (
     <PageWrapper>
-      <div className={manrope}>
+      <div className="bg-white rounded-[20px] p-[40px] my-[20px]">
         <Divider />
         <Hero />
         <Divider />
