@@ -48,7 +48,8 @@ const Header = () => {
           </div>
 
           {/* HEADER NAME */}
-          <h1 className="text-primary-white text-nav-primary-heading">
+          <h1 className="text-primary-white text-nav-primary-heading w-full">
+          <div className="text-[#e24646]">
             <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
           </h1>
 
