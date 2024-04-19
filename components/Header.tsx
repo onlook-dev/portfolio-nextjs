@@ -15,7 +15,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="px-8 max-w-3xl mx-auto mt-32">
+    <nav className="px-8 max-w-3xl mx-auto mt-0">
       <div
         className={clsx(
           "flex flex-col",
@@ -42,14 +42,14 @@ const Header = () => {
               src="/assets/pfp.png"
               fill
               alt="profile-picture"
-              className="rounded-full select-none"
+              className="rounded-full select-none mt-6"
               draggable="false"
             />
           </div>
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold text-black`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold text-[#757575]`}>Onlooks</span>
           </h1>
 
           {/* NAV LINKS */}
