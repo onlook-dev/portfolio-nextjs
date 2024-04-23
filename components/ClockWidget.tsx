@@ -25,7 +25,7 @@ const ClockWidget = (props: Props) => {
         "hidden md:block"
       )}
     >
-      <h1 className="text-4xl">{formattedTime}</h1>
+      <h1 className="text-4xl text-[#f53838]">{formattedTime}</h1>
       <div className="text-primary-gray">
         <p className="text-base leading-5">{formattedDate}</p>
         <p className="text-lg">{formattedDay}</p>
