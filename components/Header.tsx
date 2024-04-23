@@ -24,7 +24,7 @@ const Header = () => {
         )}
       >
         {/* LEFT CONTAINER */}
-        <div className="space-y-3.5">
+        <div className="space-y-3.5 mt-[100px]">
           {/* AVATAR */}
           <div
             className={clsx(
@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold text-[#757575]`}>Onlooks</span>
+            <span className={`${poppins} text-8xl font-bold text-[#757575]`}>Addepar</span>
           </h1>
 
           {/* NAV LINKS */}
