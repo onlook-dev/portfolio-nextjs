@@ -53,7 +53,7 @@ const Header = () => {
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex gap-2 justify-end flex-col text-primary-gray text-nav-primary-list">
             {navLinks.map((link) => (
               <p
                 className={`${
@@ -63,7 +63,7 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-[#ff0505]">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
