@@ -22,7 +22,7 @@ const ClockWidget = (props: Props) => {
         manrope,
         "text-primary-white text-right",
         "space-y-3.5",
-        "hidden md:block"
+        "hidden md:block flex flex-row"
       )}
     >
       <h1 className="text-4xl">{formattedTime}</h1>
