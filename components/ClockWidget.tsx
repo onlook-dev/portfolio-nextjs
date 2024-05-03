@@ -22,13 +22,13 @@ const ClockWidget = (props: Props) => {
         manrope,
         "text-primary-white text-right",
         "space-y-3.5",
-        "hidden md:block"
+        "hidden md:block flex gap-2.5"
       )}
     >
       <h1 className="text-4xl">{formattedTime}</h1>
       <div className="text-primary-gray">
-        <p className="text-base leading-5">{formattedDate}</p>
-        <p className="text-lg">{formattedDay}</p>
+        <p className="text-base leading-5 text-white">{formattedDate}</p>
+        <p className="text-lg text-white">{formattedDay}</p>
       </div>
     </div>
   );
