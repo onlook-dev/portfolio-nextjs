@@ -47,7 +47,7 @@ const Footer = (props: Props) => {
       >
         <div className={`${manrope} space-y-4`}>
           <p className="footer-item">
-            <Link onClick={pathname === "/" ? scrollToTop : undefined} href="/">
+            <Link onClick={pathname === "/" ? scrollToTop : undefined} href="/" class="text-red-500">
               About
             </Link>
           </p>
@@ -55,6 +55,7 @@ const Footer = (props: Props) => {
             <Link
               onClick={pathname === "/work" ? scrollToTop : undefined}
               href="/work"
+            class="text-red-500"
             >
               Work
             </Link>
@@ -63,6 +64,7 @@ const Footer = (props: Props) => {
             <Link
               onClick={pathname === "/blogs" ? scrollToTop : undefined}
               href="/blogs"
+            class="text-red-500"
             >
               Blogs
             </Link>
