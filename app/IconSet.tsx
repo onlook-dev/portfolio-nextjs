@@ -32,7 +32,7 @@ export const icons: IconObjctType[] = [
 const IconSet = () => {
   return (
     <>
-      <div className="flex gap-5 w-full">
+      <div className="flex flex-col gap-5 w-[100px]">
         {icons.map((icon: IconObjctType, index) => (
           <motion.div
             whileHover={{ scale: 1.1 }}
