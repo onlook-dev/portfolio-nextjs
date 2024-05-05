@@ -49,11 +49,11 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold`}>Eric</span>
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex flex-col items-center gap-3.5 text-primary-gray text-nav-primary-list">
             {navLinks.map((link) => (
               <p
                 className={`${
@@ -63,7 +63,7 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-white">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
@@ -82,7 +82,7 @@ const Header = () => {
         </div>
 
         {/* RIGHT CONTAINER */}
-        <div className="space-y-3.5">
+        <div className="space-y-3.5 w-[258.125px]">
           <ClockWidget />
 
           {/* ICON SET */}
