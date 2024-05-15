@@ -16,13 +16,7 @@ const Header = () => {
 
   return (
     <nav className="px-8 max-w-3xl mx-auto mt-32">
-      <div
-        className={clsx(
-          "flex flex-col",
-          "justify-between items-center text-center",
-          "md:flex-row md:text-left"
-        )}
-      >
+      <div className={clsx("grid grid-cols-[repeat(01,1fr)] grid-rows-[repeat(2,1fr)] flex-row","justify-between items-center text-center","md:flex-row md:text-left")}>
         {/* LEFT CONTAINER */}
         <div className="space-y-3.5">
           {/* AVATAR */}
@@ -49,7 +43,7 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold`}>Pablo's site</span>
           </h1>
 
           {/* NAV LINKS */}
@@ -63,13 +57,13 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-white text-center text-white">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
                       className={clsx(
                         "absolute left-0 top-full block",
-                        "bg-primary-gray-highlighted",
+                        "bg-primary-gray-highlighted text-white text-center"
                         "h-[2px] w-full"
                       )}
                     />
