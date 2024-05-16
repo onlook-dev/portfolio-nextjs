@@ -48,12 +48,12 @@ const Header = () => {
           </div>
 
           {/* HEADER NAME */}
-          <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+          <h1 className="text-primary-white text-nav-primary-heading border-[2px] border-[#ff0000]">
+            <span className={`${poppins} text-8xl font-bold`}>Julius Tarng</span>
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex gap-0 flex-col text-primary-gray text-nav-primary-list">
             {navLinks.map((link) => (
               <p
                 className={`${
@@ -82,7 +82,7 @@ const Header = () => {
         </div>
 
         {/* RIGHT CONTAINER */}
-        <div className="space-y-3.5">
+        <div className="space-y-3.5 w-full">
           <ClockWidget />
 
           {/* ICON SET */}
