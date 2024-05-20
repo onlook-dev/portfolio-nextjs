@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold`}>SPC</span>
           </h1>
 
           {/* NAV LINKS */}
@@ -63,7 +63,7 @@ const Header = () => {
                 } ${manrope} cursor-pointer transition-all hover:text-primary-gray-highlighted`}
                 key={link.id}
               >
-                <Link href={link.route} className="relative">
+                <Link href={link.route} className="relative text-[#ffffff] text-white text-[#ffffff]">
                   {link.route === pathname && (
                     <motion.span
                       layoutId="underline"
