@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className='bg-[#153d00] text-black'>
+      <body className='bg-[#0b1f00] text-black'>
         <Header />
         {children}
         <AnalyticsWrapper />
