@@ -27,7 +27,7 @@ const ClockWidget = (props: Props) => {
     >
       <h1 className="text-4xl">{formattedTime}</h1>
       <div className="text-primary-gray">
-        <p className="text-base leading-5">{formattedDate}</p>
+        <p className="text-[rgb(0,255,251)] bg-[rgb(67,109,59)] text-base leading-5">{formattedDate}</p>
         <p className="text-lg">{formattedDay}</p>
       </div>
     </div>
