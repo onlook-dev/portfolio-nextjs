@@ -37,7 +37,7 @@ const Footer = (props: Props) => {
           visible: { opacity: 1, x: 0 },
         }}
         className={clsx(
-          "flex flex-col gap-4",
+          "grid flex-row gap-4",
           "justify-between",
           "sm:flex-row",
           "text-[#646464] tracking-wide",
@@ -45,7 +45,7 @@ const Footer = (props: Props) => {
           "relative"
         )}
       >
-        <div className={`${manrope} space-y-4`}>
+        <div className={`${manrope} space-y-4 flex justify-center items-center`}>
           <p className="footer-item">
             <Link onClick={pathname === "/" ? scrollToTop : undefined} href="/">
               About
