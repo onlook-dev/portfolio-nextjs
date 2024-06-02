@@ -13,20 +13,7 @@ const Hero = (props: Props) => {
           Onlook demo website. Put a brief background about yourself here.
         </p>
         <div className="w-full">
-          <Image
-            src="/assets/hero-main.jpg"
-            className={clsx(
-              "select-none",
-              "rounded-full",
-              "aspect-auto",
-              "grayscale-0"
-            )}
-            width={1000}
-            height={1000}
-            alt="main-image"
-            draggable="false"
-            quality={100}
-          />
+          <Image src="/assets/hero-main.jpg" className={clsx("select-none", "rounded-full", "aspect-auto", "grayscale-0", "flex-row")} width={1000} height={1000} alt="main-image" draggable="false" quality={100} />
         </div>
       </div>
     </div>
