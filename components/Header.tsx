@@ -49,11 +49,11 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold`}>Karl</span>
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex gap-[24px] text-primary-gray text-nav-primary-list mt-[20px] ml-0 m-[16px] p-0 flex-col">
             {navLinks.map((link) => (
               <p
                 className={`${
