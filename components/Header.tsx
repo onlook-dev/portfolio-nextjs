@@ -53,7 +53,7 @@ const Header = () => {
           </h1>
 
           {/* NAV LINKS */}
-          <div className="flex gap-5 text-primary-gray text-nav-primary-list">
+          <div className="flex flex-col gap-2 mr-0 mb-2 text-primary-gray text-nav-primary-list">
             {navLinks.map((link) => (
               <p
                 className={`${
