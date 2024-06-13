@@ -49,7 +49,7 @@ const Header = () => {
 
           {/* HEADER NAME */}
           <h1 className="text-primary-white text-nav-primary-heading">
-            <span className={`${poppins} text-8xl font-bold text-shadow-[2px_2px_4px_#000000]`}>Onlook</span>
+            <span className={`${poppins} text-8xl font-bold [text-shadow:2px_2px_4px_rgba(0,0,0,0.5)]`}>Onlook</span>
           </h1>
 
           {/* NAV LINKS */}
