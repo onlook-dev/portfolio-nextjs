@@ -8,7 +8,7 @@ const Hero = (props: Props) => {
   return (
     <div className="text-secondary-white mb-20">
       <div className={clsx(manrope, "space-y-12", "text-hero-primary-para")}>
-        <p className="leading-normal tracking-wide">
+        <p className="leading-normal tracking-wide border-2 border-[#FF0000] p-5 shadow-[0_0_10px_#FF0000] bg-[#FF4500] text-[#FFFFFF]">
           <span style={{ fontWeight: 700 }}>Welcome</span>, to the
           Onlook demo website. Put a brief background about yourself here.
         </p>
