@@ -48,7 +48,7 @@ const Header = () => {
           </div>
 
           {/* HEADER NAME */}
-          <h1 className="text-primary-white text-nav-primary-heading p-[25px] bg-[#FF6347] text-[#FF4500] rounded-[25px] text-[3.5em] bg-[length:40px]"></h1>
+          <h1 className="text-primary-white text-nav-primary-heading p-[25px] bg-[#FF6347] text-[#FF4500] rounded-[25px] text-[3.5em] bg-[length:40px]">
             <span className={`${poppins} text-8xl font-bold`}>Ale</span>
           </h1>
 
